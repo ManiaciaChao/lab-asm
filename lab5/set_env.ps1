@@ -1,0 +1,5 @@
+$Masm32Dir="C:\Users\EvilC\repos\asm_lab5_doc\win_framefork\Masm32"
+$env:include+=";$Masm32Dir\Include"
+$env:lib+=";$Masm32Dir\lib"
+$env:Path+=";$Masm32Dir\Bin;$Masm32Dir"
+$Masm32Dir=""

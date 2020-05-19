@@ -1,0 +1,21 @@
+#define IDM_FILE_EXIT   10001
+#define IDM_ACTION_REC  10101
+#define IDM_ACTION_SORT 10102
+#define IDM_HELP_ABOUT  10201
+
+MyMenu  MENU
+BEGIN
+	POPUP "&File"
+  	BEGIN
+    		MENUITEM "E&xit", IDM_FILE_EXIT
+	END
+	POPUP "&Action"
+	BEGIN
+	    	MENUITEM "&Recommendation",IDM_ACTION_REC
+	    	MENUITEM "&List Sort",IDM_ACTION_SORT
+	END
+	POPUP "&Help"
+	BEGIN
+	    	MENUITEM "&About",IDM_HELP_ABOUT
+	END
+END

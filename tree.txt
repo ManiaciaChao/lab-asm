@@ -1,0 +1,78 @@
+.
+├── lab1              # 实验1
+│   ├── mk_task4.bat  # 用于构建二进制文件的脚本
+│   ├── task2.asm     # 任务2的源码
+│   ├── TASK2.EXE     # 任务2的二进制文件
+│   ├── task3.asm     # 任务3的源码
+│   ├── TASK3.EXE     # 任务3的二进制文件
+│   ├── task4.asm     # 任务4的源码
+│   ├── TASK4.EXE     # 任务4的二进制文件
+│   ├── task4_l.asm   # 任务4的源码（lib）
+│   └── task4_m.asm   # 任务4的源码（macro）
+├── lab2              # 实验2
+│   ├── lib.asm       # lib
+│   ├── m.asm         # macro
+│   ├── mk.bat        # 用于构建二进制文件的脚本
+│   ├── task1.asm     # 任务1的源码
+│   ├── TASK1.EXE     # 任务1的二进制文件
+│   ├── task2.asm     # 任务2的源码
+│   ├── TASK2.EXE     # 任务2的二进制文件
+│   └── timer.asm     # 计时
+├── lab3              # 实验3
+│   ├── task1         # 第1次实验
+│   │   ├── case6.asm
+│   │   ├── lib.asm
+│   │   ├── m6.asm
+│   │   ├── main.asm
+│   │   ├── m.asm
+│   │   ├── menu.asm
+│   │   ├── mk.bat
+│   │   ├── task1.asm
+│   │   ├── TASK1.EXE
+│   │   └── timer.asm
+│   └── task2           # 第2次实验
+│       ├── lab32.exe
+│       ├── main.c      # C源码
+│       └── origin.asm  # 汇编源码
+├── lab4                # 实验4
+│   ├── task1           # 中断     
+│   │   ├── cases.asm
+│   │   ├── lib.asm
+│   │   ├── macros.asm
+│   │   ├── mk.bat
+│   │   ├── task1.asm
+│   │   └── TASK1.EXE
+│   └── task2           # 反跟踪
+│       ├── after       # 混淆后
+│       │   ├── cases.asm
+│       │   ├── lib.asm
+│       │   ├── macros.asm
+│       │   ├── mk.bat
+│       │   ├── task2.asm
+│       │   └── TASK2.EXE
+│       ├── before      # 混淆前
+│       │   ├── cases.asm
+│       │   ├── lib.asm
+│       │   ├── macros.asm
+│       │   ├── mk.bat
+│       │   ├── task2.asm
+│       │   └── TASK2.EXE
+│       └── utils       # 混淆工具
+│           ├── encrypt.asm
+│           ├── input.txt
+│           ├── obfuscator.ts
+│           ├── output.asm
+│           ├── package.json
+│           ├── tsconfig.json
+│           ├── utils.ts
+│           └── yarn.lock
+├── lab5            # 实验5
+│   ├── make.ps1    # 构建脚本
+│   ├── menuID.inc  # 常量定义
+│   ├── menu.rc     # 资源文件
+│   ├── set_env.ps1 # 设置环境变量脚本
+│   ├── task1.asm   # 源码
+│   └── task1.exe
+└── tree.txt
+
+12 directories, 63 files
